@@ -27,6 +27,9 @@ public:
 
     bool is_valid() const
     {
+        // fix negative side test
+        if (a <= 0 || b <= 0)
+            return false;
         double lhs = static_cast<double>(a) * a +
                      static_cast<double>(b) * b;
         double rhs = get_hypotenuse() * get_hypotenuse();
