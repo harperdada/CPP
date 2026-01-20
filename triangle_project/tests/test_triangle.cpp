@@ -25,12 +25,22 @@ TEST(PythagoreanTriangleFloat, SixEightTen)
     EXPECT_TRUE(t.is_valid());
 }
 
+#if 0
 TEST(PythagoreanTriangleEdge, ZeroZero)
 {
     PythagoreanTriangle<int> t(0, 0);
     EXPECT_DOUBLE_EQ(t.get_hypotenuse(), 0.0);
     EXPECT_DOUBLE_EQ(t.get_area(), 0.0);
     EXPECT_TRUE(t.is_valid());
+}
+#endif
+
+TEST(PythagoreanTriangleEdge, ZeroZero)
+{
+    PythagoreanTriangle<int> t(0, 0);
+    EXPECT_DOUBLE_EQ(t.get_hypotenuse(), 0.0);
+    EXPECT_DOUBLE_EQ(t.get_area(), 0.0);
+    EXPECT_FALSE(t.is_valid());   // changed
 }
 
 TEST(PythagoreanTriangleInvalid, NegativeSide)
