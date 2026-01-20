@@ -1,0 +1,5 @@
+/Users/prav/C_vs_C++/Projects/triangle_project/build/CMakeFiles/test_triangle.dir
+/Users/prav/C_vs_C++/Projects/triangle_project/build/CMakeFiles/triangle_app.dir
+/Users/prav/C_vs_C++/Projects/triangle_project/build/CMakeFiles/test.dir
+/Users/prav/C_vs_C++/Projects/triangle_project/build/CMakeFiles/edit_cache.dir
+/Users/prav/C_vs_C++/Projects/triangle_project/build/CMakeFiles/rebuild_cache.dir
